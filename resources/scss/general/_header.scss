@@ -1,0 +1,36 @@
+header{
+    @include centerFlex('horizontal');
+    color: black;
+    align-items: self-end;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5px;
+    img{
+        width: 70%;
+        padding-bottom: 10px
+    }
+    ul{
+    @include centerFlex('horizontal');
+    margin-bottom: 0px !important;
+    a{
+        display: inline-block;
+        text-transform: uppercase;
+        margin: 0 10px;
+        color: #464646;
+        font-weight: bold;
+        font-size: 14px;
+        padding-bottom: 30px;
+        &:hover{
+        color: #0282F9;
+        }
+        &:active{
+           border-bottom: 3px solid #0282F9;
+      }
+    }
+    .active{
+      border-bottom: 3px solid #0282F9;
+      color: #0282F9;
+    }
+  }
+  }

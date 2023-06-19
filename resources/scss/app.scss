@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+//Importo il font
+@import '@fontsource/oswald';
+
+
+//importo gli stili
+@import './general/variables';
+@import './general/mixin';
+@import './general/general';
+@import './general/typography.scss';
+@import './general/utility';
+@import './general/header';
+@import './general/footer';
+@import './general/jumbotron';
+@import './general/main';
+@import './general/card_detail';
+
+
+
+
